@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-app",
+  "name": "purity",
   "version": "1.0.0",
-  "description": "React/redux based app boilerplate.",
+  "description": "How pure can I get this thing?",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack",
@@ -24,11 +24,13 @@
     "koa-favicon": "^1.2.0",
     "koa-router": "^5.3.0",
     "koa-static": "^2.0.0",
+    "pureflow": "0.0.1",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "simple-protocol-http": "0.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.6.4",
