@@ -1,3 +1,5 @@
+const { loadUsers } = require('../actions/users')
+
 function l1 () {
   return {
     get: {
@@ -20,10 +22,7 @@ function l2 ({result}) {
 
 function l3 ({payload}) {
   return {
-    dispatch: {
-      type: 'LOAD_USERS',
-      payload
-    }
+    dispatch: loadUsers(payload)
   }
 }
 
